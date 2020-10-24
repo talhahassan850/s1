@@ -1,0 +1,195 @@
+.a3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .a3 {
+    flex-direction: column;
+  }
+}
+.a3 .fa-bars {
+  color: black;
+  padding-right: 2em;
+  margin-left: 1.8em;
+  margin-top: 1em;
+}
+
+.a1 img {
+  margin-top: 0.4em;
+  z-index: 1;
+}
+
+.a2 input {
+  border: 1px solid lightslategray;
+  height: 1.8em;
+  text-decoration: none;
+  margin-top: 0.5em;
+  margin-left: 3em;
+  text-align: left;
+}
+
+.a3 button {
+  border: none;
+  width: 3em;
+  height: 1.9em;
+  margin-top: 0.45em;
+}
+
+.a3 .fa-video {
+  margin-left: 5em;
+  color: black;
+  margin-top: 0.8em;
+}
+.a3 .fa-th,
+.fa-bell {
+  margin-left: 1.6em;
+  color: black;
+  margin-top: 0.8em;
+}
+
+.a4 {
+  display: flex;
+  flex-direction: column;
+  width: 3.8em;
+  color: black;
+  float: left;
+  position: fixed;
+  margin-top: 1em;
+  background-color: white;
+  height: 16em;
+  overflow: hidden;
+}
+
+.a4 a {
+  margin-bottom: 0em;
+  display: block;
+  text-align: center;
+  color: black;
+  height: 4em;
+}
+
+.a4 a > p {
+  font-size: 8px;
+}
+
+.a4 a:hover {
+  background-color: whitesmoke;
+  text-decoration: none;
+}
+.a5 {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 93%;
+  float: right;
+}
+
+.a5 img {
+  width: 100%;
+  height: 100%;
+}
+
+.a6 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: whitesmoke;
+  width: 93%;
+  float: right;
+  height: 6em;
+}
+div.a7 {
+  width: 12em;
+}
+
+.a7 img {
+  margin-top: 1em;
+  width: 5em;
+  height: 5em;
+  margin-left: 6em;
+}
+.a8 {
+  width: 20em;
+}
+.a8 p {
+  margin-top: 2em;
+  font-size: 14px;
+}
+
+.a8 p > strong {
+  font-size: 24px;
+}
+.a8 i {
+  font-size: 15px;
+}
+
+.a9 button {
+  color: white;
+  background-color: red;
+  margin-left: 20em;
+  margin-top: 3em;
+  text-decoration: none;
+}
+
+div.a10 {
+  display: flex;
+  flex-wrap: nowrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0em;
+  width: 93%;
+  float: right;
+  background-color: whitesmoke;
+  color: black;
+}
+
+li.a11 a {
+  margin-left: 6em;
+}
+li a {
+  color: grey;
+}
+li.a12 a {
+  margin-left: 2em;
+}
+li a:hover {
+  color: black;
+  font-weight: bold;
+}
+a.a13 {
+  background-color: black;
+  width: 2em;
+}
+
+.a14 {
+  width: 93%;
+  float: right;
+}
+
+.a15 a > i {
+  margin-left: 28em;
+}
+
+.a16 a {
+  margin-left: 1em;
+  color: black;
+}
+
+div.a17 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: whitesmoke;
+  width: 93%;
+  float: right;
+  justify-content: space-around;
+}
+
+.a17 div > img {
+  width: 12em;
+  height: 12em;
+}
