@@ -1,61 +1,63 @@
-.a3 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  z-index: 1;
-  background-color: white;
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  height: 3em;
+  border-bottom: 1px solid black;
 }
 
-.a3 .fa-bars {
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: inline-block;
   color: black;
-  padding-right: 2em;
-  margin-left: 1.8em;
-  margin-top: 1em;
-}
-
-.a1 img {
-  margin-top: 0.4em;
-  z-index: 1;
-  margin-left: 1em;
-}
-
-.a2 input {
-  border: 1px solid lightslategray;
-  height: 1.8em;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  margin-top: 0.5em;
+}
+
+ul.topnav li a > img {
+  height: 1.5em;
+  width: 6em;
+}
+
+ul.topnav li a > img.a1 {
+  width: 2em;
+}
+
+ul.topnav li a > input {
+  height: 1.5em;
+  width: 30em;
+  margin-right: 0em;
   margin-left: 3em;
-  text-align: left;
 }
 
-.a3 button {
-  border: none;
-  width: 3em;
-  height: 1.9em;
-  margin-top: 0.45em;
-}
-
-.a3 .fa-video {
-  margin-left: 8em;
-  color: black;
-  margin-top: 0.8em;
-}
-.a3 .fa-th,
-.fa-bell {
-  margin-left: 1.6em;
-  color: black;
-  margin-top: 0.8em;
+@media screen and (max-width: 600px) {
+  ul.topnav li {
+    float: none;
+    background-color: whitesmoke;
+  }
+  ul.topnav li a > img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .a4 {
+    width: 100%;
+    position: relative;
+  }
 }
 
 .a4 {
-  display: flex;
-  flex-direction: column;
-  width: 3.8em;
+  width: 7%;
   color: black;
   float: left;
   position: fixed;
-  margin-top: 1em;
-  background-color: white;
+  background-color: wheat;
   height: 16em;
   overflow: hidden;
 }
@@ -69,36 +71,30 @@
 }
 
 .a4 a > p {
-  font-size: 10px;
+  font-size: 8px;
 }
 
 .a4 a:hover {
   background-color: whitesmoke;
   text-decoration: none;
 }
+
 .a5 {
-  display: flex;
-  flex-wrap: nowrap;
   width: 93%;
   float: right;
 }
 
 .a5 img {
-  width: 100%;
-  height: 100%;
+  margin-top: 0em;
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.a6 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+.row {
   background-color: whitesmoke;
-  width: 93%;
+  width: 94.3%;
   float: right;
   height: 6em;
-}
-div.a7 {
-  width: 12em;
 }
 
 .a7 img {
